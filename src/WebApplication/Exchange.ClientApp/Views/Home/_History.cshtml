@@ -1,0 +1,31 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+@model List<ConversionHistoryResponse>
+
+<table class="display" style="width:100%" id="MainDataTable">
+    <thead>
+        <tr>
+            
+            <th scope="col">Requested Symbol</th>
+            <th scope="col">Requested Amount</th>
+            <th scope="col">Requested Date</th>
+            <th>Converted Curencies</th>
+        </tr>
+        @foreach (var sample in Model.ToList())
+        {
+            <tr >
+                <td scope="row">@sample.CurrentedFrom</td>
+                <td scope="row">@sample.ConvertedAmount</td>
+                <td scope="row">@sample.RequestedTime</td>
+                <td scope="row">
+                @foreach (var item in sample.Histories)
+                {
+                    <div>@item.TypeName: @item.Amount</div>
+                }
+                </td>
+            </tr>
+        }
+    </thead>
+</table>

@@ -1,0 +1,25 @@
+{
+  "status": {
+    "timestamp": "2022-08-17T21:48:28.218Z",
+    "error_code": 0,
+    "error_message": null,
+    "elapsed": 37,
+    "credit_count": 1,
+    "notice": null
+  },
+  "data": [
+    {
+      "id": 2781,
+      "symbol": "USD",
+      "name": "United States Dollar",
+      "amount": 1,
+      "last_updated": "2022-08-17T21:48:27.000Z",
+      "quote": {
+        "AUD": {
+          "price": 1.4416080000000058,
+          "last_updated": "2022-08-17T21:48:27.000Z"
+        }
+      }
+    }
+  ]
+}

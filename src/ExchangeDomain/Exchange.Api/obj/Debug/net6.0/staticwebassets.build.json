@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "uvNp4Zlzq74Yr767BSgh/bNd9sPmn6PCaY4cYF95vms=",
+  "Source": "Exchange.Api",
+  "BasePath": "_content/Exchange.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

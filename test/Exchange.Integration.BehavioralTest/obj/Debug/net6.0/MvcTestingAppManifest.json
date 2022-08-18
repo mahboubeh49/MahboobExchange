@@ -1,0 +1,6 @@
+{
+  "Exchange.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "D:\\proj\\KnabFinal\\src\\ExchangeDomain\\Exchange.Api",
+  "Exchange.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "D:\\proj\\KnabFinal\\src\\ExchangeDomain\\Exchange.Application",
+  "Exchange.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "D:\\proj\\KnabFinal\\src\\ExchangeDomain\\Exchange.Core",
+  "Exchange.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "D:\\proj\\KnabFinal\\src\\ExchangeDomain\\Exchange.Infrastructure"
+}

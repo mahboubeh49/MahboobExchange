@@ -1,0 +1,326 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\proj\\KnabAssesmentResultFromGit\\test\\Exchange.Infrastructure.UnitTest\\Exchange.Infrastructure.UnitTest.csproj": {}
+  },
+  "projects": {
+    "D:\\proj\\KnabAssesmentResultFromGit\\src\\ExchangeDomain\\Exchange.Application\\Exchange.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\proj\\KnabAssesmentResultFromGit\\src\\ExchangeDomain\\Exchange.Application\\Exchange.Application.csproj",
+        "projectName": "Exchange.Application",
+        "projectPath": "D:\\proj\\KnabAssesmentResultFromGit\\src\\ExchangeDomain\\Exchange.Application\\Exchange.Application.csproj",
+        "packagesPath": "C:\\Users\\mahboubeh\\.nuget\\packages\\",
+        "outputPath": "D:\\proj\\KnabAssesmentResultFromGit\\src\\ExchangeDomain\\Exchange.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\mahboubeh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\proj\\KnabAssesmentResultFromGit\\src\\ExchangeDomain\\Exchange.Core\\Exchange.Core.csproj": {
+                "projectPath": "D:\\proj\\KnabAssesmentResultFromGit\\src\\ExchangeDomain\\Exchange.Core\\Exchange.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[10.4.0, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[10.0.1, )"
+            },
+            "Microsoft.Extensions.Logging.Abstractions": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\proj\\KnabAssesmentResultFromGit\\src\\ExchangeDomain\\Exchange.Core\\Exchange.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\proj\\KnabAssesmentResultFromGit\\src\\ExchangeDomain\\Exchange.Core\\Exchange.Core.csproj",
+        "projectName": "Exchange.Core",
+        "projectPath": "D:\\proj\\KnabAssesmentResultFromGit\\src\\ExchangeDomain\\Exchange.Core\\Exchange.Core.csproj",
+        "packagesPath": "C:\\Users\\mahboubeh\\.nuget\\packages\\",
+        "outputPath": "D:\\proj\\KnabAssesmentResultFromGit\\src\\ExchangeDomain\\Exchange.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\mahboubeh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\proj\\KnabAssesmentResultFromGit\\src\\ExchangeDomain\\Exchange.Infrastructure\\Exchange.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\proj\\KnabAssesmentResultFromGit\\src\\ExchangeDomain\\Exchange.Infrastructure\\Exchange.Infrastructure.csproj",
+        "projectName": "Exchange.Infrastructure",
+        "projectPath": "D:\\proj\\KnabAssesmentResultFromGit\\src\\ExchangeDomain\\Exchange.Infrastructure\\Exchange.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\mahboubeh\\.nuget\\packages\\",
+        "outputPath": "D:\\proj\\KnabAssesmentResultFromGit\\src\\ExchangeDomain\\Exchange.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\mahboubeh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\proj\\KnabAssesmentResultFromGit\\src\\ExchangeDomain\\Exchange.Application\\Exchange.Application.csproj": {
+                "projectPath": "D:\\proj\\KnabAssesmentResultFromGit\\src\\ExchangeDomain\\Exchange.Application\\Exchange.Application.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.Bot.Schema": {
+              "target": "Package",
+              "version": "[4.17.1, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[6.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.8, )"
+            },
+            "Microsoft.Extensions.Http": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\proj\\KnabAssesmentResultFromGit\\test\\Exchange.Infrastructure.UnitTest\\Exchange.Infrastructure.UnitTest.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\proj\\KnabAssesmentResultFromGit\\test\\Exchange.Infrastructure.UnitTest\\Exchange.Infrastructure.UnitTest.csproj",
+        "projectName": "Exchange.Infrastructure.UnitTest",
+        "projectPath": "D:\\proj\\KnabAssesmentResultFromGit\\test\\Exchange.Infrastructure.UnitTest\\Exchange.Infrastructure.UnitTest.csproj",
+        "packagesPath": "C:\\Users\\mahboubeh\\.nuget\\packages\\",
+        "outputPath": "D:\\proj\\KnabAssesmentResultFromGit\\test\\Exchange.Infrastructure.UnitTest\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\mahboubeh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\proj\\KnabAssesmentResultFromGit\\src\\ExchangeDomain\\Exchange.Infrastructure\\Exchange.Infrastructure.csproj": {
+                "projectPath": "D:\\proj\\KnabAssesmentResultFromGit\\src\\ExchangeDomain\\Exchange.Infrastructure\\Exchange.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.Extensions.Http": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.1.0, )"
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.18.2, )"
+            },
+            "RichardSzalay.MockHttp": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "coverlet.collector": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.2, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.1, )"
+            },
+            "xunit.runner.visualstudio": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.4.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

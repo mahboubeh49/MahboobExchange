@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "tBIIEjcmkRxVceBYDIXByQiH43lFpf9t45Y3JQNpi2UmS1enW8M+w7HNinyyVjR2yhU/lSb8WpyIYeixR5SCWQ==",
+  "success": true,
+  "projectFilePath": "D:\\proj\\KnabAssesmentResultFromGit\\src\\ExchangeDomain\\Exchange.Application\\Exchange.Application.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\mahboubeh\\.nuget\\packages\\fluentvalidation\\10.4.0\\fluentvalidation.10.4.0.nupkg.sha512",
+    "C:\\Users\\mahboubeh\\.nuget\\packages\\mediatr\\10.0.1\\mediatr.10.0.1.nupkg.sha512",
+    "C:\\Users\\mahboubeh\\.nuget\\packages\\mediatr.contracts\\1.0.1\\mediatr.contracts.1.0.1.nupkg.sha512",
+    "C:\\Users\\mahboubeh\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\6.0.1\\microsoft.extensions.logging.abstractions.6.0.1.nupkg.sha512",
+    "C:\\Users\\mahboubeh\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,25 @@
+{
+  "status": {
+    "timestamp": "2022-08-17T21:47:50.328Z",
+    "error_code": 0,
+    "error_message": null,
+    "elapsed": 31,
+    "credit_count": 1,
+    "notice": null
+  },
+  "data": [
+    {
+      "id": 2781,
+      "symbol": "USD",
+      "name": "United States Dollar",
+      "amount": 1,
+      "last_updated": "2022-08-17T21:47:22.000Z",
+      "quote": {
+        "BRL": {
+          "price": 5.166500000000047,
+          "last_updated": "2022-08-17T21:47:22.000Z"
+        }
+      }
+    }
+  ]
+}

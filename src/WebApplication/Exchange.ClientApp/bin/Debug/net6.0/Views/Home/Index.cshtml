@@ -1,0 +1,19 @@
+﻿@using Exchange.ClientApp.Models
+
+@{
+    ViewBag.Title = "Mahboubeh";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@model DataContainer
+<a class="" asp-area="" asp-controller="Login" asp-action="Logout"> <b>Sign out</b> </a>
+<hr />
+<div class="wrap-login100">
+    @await Html.PartialAsync("_Add.cshtml", Model.AddModel)
+     <div>
+     @Html.ValidationSummary()
+     </div>
+
+    @await Html.PartialAsync("_History.cshtml", Model.HistoryListModel)
+</div>
+

@@ -1,0 +1,40 @@
+﻿@model Exchange.ClientApp.Models.LoginModel
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h4>Welcome</h4>
+
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="LoginRequest" method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="UserName" class="control-label"></label>
+                <input asp-for="UserName" class="form-control" />
+                <span asp-validation-for="UserName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Password" class="control-label"></label>
+                <input asp-for="Password" class="form-control" />
+                <span asp-validation-for="Password" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Login" class="btn btn-primary" />
+            </div>
+            <div>
+                @ViewData["message"] 
+            </div>
+        </form>
+    </div>
+</div>
+
+
+<hr />
+<div>
+    To login you can use follwoing data: <br />
+   Username: <b>matt</b> <br />
+   Password: <b>123456</b>
+</div>

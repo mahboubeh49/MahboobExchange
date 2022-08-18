@@ -1,0 +1,46 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+@model ConvertModel
+
+<div>
+
+        <div style="margin-bottom:10px">
+            @using (@Html.BeginForm("Search", "Home", FormMethod.Post, new { @class = "form-horizontal" }))
+            {
+                <form class="form-horizontal">
+               @* <div class="error">@ViewBag.ErrorMessage</div>*@
+                @Html.AntiForgeryToken()
+                <div class="row">
+
+                    <div class="col-lg-5 col-sm-5 col-md-5">
+                        <div class="form-group">
+                            <label asp-for="Amount" class="control-label"></label>
+                            <input asp-for="Amount" class="form-control " value="1" />
+                            <span asp-validation-for="Amount" class="text-danger "></span>
+                        </div>
+                    </div>
+                    <div class="col-lg-5 col-sm-5 col-md-5">
+                        <div class="form-group">
+                            <label asp-for="Symbol" class="control-label"></label>
+                            <input asp-for="Symbol" class="form-control " />
+                            <span asp-validation-for="Symbol" class="text-danger"></span>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-sm-2 col-md-2">
+                        <div class="form-group" style="margin-top:28px">
+                            <button type="submit" value='Add' class="btn btn-info" id="submitbutton">Search</button>
+
+
+                        </div>
+                    </div>
+
+                        <div>
+                         @Html.ValidationSummary()
+                         </div>
+                </div>
+                </form>           
+            }
+        </div>   
+</div>
